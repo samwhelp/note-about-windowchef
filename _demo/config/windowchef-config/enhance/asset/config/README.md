@@ -25,18 +25,20 @@ show
 
 ```
 /home/user/.config/windowchef
+├── bin
+│   ├── windowchef-wallpaper-ctrl-default
+│   └── windowchef-wallpaper-ctrl-shuf
 ├── style
-│   ├── bar
-│   │   └── windowchef-bar-clock.sh
-│   └── picom
-│       └── picom.conf
-├── apps.conf
+│   ├── picom
+│   │   └── picom.conf
+│   └── tint2
+│       └── tint2rc
 ├── autostart
 ├── environment
-├── key.conf
-└── rc.conf
+├── sxhkdrc
+└── windowchefrc
 
-3 directories, 7 files
+4 directories, 8 files
 ```
 
 ## Howto
