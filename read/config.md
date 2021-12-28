@@ -9,16 +9,16 @@ has_children: true
 
 ## 設定檔路徑
 
-* [~/.config/windowchef/windowchefrc](config/windowchef/windowchefrc)
-* [~/.config/windowchef/sxhkdrc](config/windowchef/sxhkdrc)
+* ~/.config/windowchef/windowchefrc
+* ~/.config/windowchef/sxhkdrc
 
 
 ## 設定檔範例
 
 | 我的設定 | 原始設定範例 |
 | --- | --- |
-| [windowchefrc](config/windowchef/windowchefrc) | [windowchefrc](config/windowchef/windowchefrc) |
-| [sxhkdrc](config/windowchef/sxhkdrc) | [windowchefrc](config/windowchef/windowchefrc) |
+| [windowchefrc](https://github.com/samwhelp/note-about-windowchef/blob/gh-pages/_demo/config/windowchef-config/basic/config/windowchef/windowchefrc) | [windowchefrc](https://github.com/samwhelp/note-about-windowchef/blob/gh-pages/_demo/config/windowchef-config/default/config/windowchef/windowchefrc) |
+| [sxhkdrc](https://github.com/samwhelp/note-about-windowchef/blob/gh-pages/_demo/config/windowchef-config/basic/config/windowchef/sxhkdrc) | [sxhkdrc](https://github.com/samwhelp/note-about-windowchef/blob/gh-pages/_demo/config/windowchef-config/default/config/windowchef/sxhkdrc) |
 
 
 ## 設定檔文件說明
