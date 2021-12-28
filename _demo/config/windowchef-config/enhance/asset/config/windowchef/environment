@@ -1,2 +1,2 @@
 
-PATH="$HOME/.config/windowchef/style/bar:$PATH"
+PATH="$HOME/.config/windowchef/bin:$PATH"

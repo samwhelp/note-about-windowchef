@@ -19,7 +19,7 @@ help:
 .PHONY: help
 
 
-install: autostart-install config-install picom-install panel-install
+install: autostart-install config-install compositor-install panel-install wallpaper-install
 #	tree --dirsfirst ~/.config/windowchef
 .PHONY: install
 
@@ -34,17 +34,22 @@ config-install:
 .PHONY: config-install
 
 panel-install:
-	install -Dm755 ./windowchef/style/tint2/tint2rc ~/.config/windowchef/style/tint2/tint2rc
+	install -Dm644 ./windowchef/style/tint2/tint2rc ~/.config/windowchef/style/tint2/tint2rc
 .PHONY: panel-install
 
-picom-install:
+compositor-install:
 	install -Dm644 ./windowchef/style/picom/picom.conf ~/.config/windowchef/style/picom/picom.conf
-.PHONY: picom-install
+.PHONY: compositor-install
+
+wallpaper-install:
+	install -Dm755 ./windowchef/bin/windowchef-wallpaper-ctrl-shuf ~/.config/windowchef/bin/windowchef-wallpaper-ctrl-shuf
+	install -Dm755 ./windowchef/bin/windowchef-wallpaper-ctrl-default ~/.config/windowchef/bin/windowchef-wallpaper-ctrl-default
+.PHONY: wallpaper-install
 
 
 
 
-remove: autostart-remove config-remove picom-remove panel-remove
+remove: autostart-remove config-remove compositor-remove panel-remove wallpaper-remove
 #	tree --dirsfirst ~/.config/windowchef
 .PHONY: remove
 
@@ -63,10 +68,14 @@ panel-remove:
 	rm -f  ~/.config/windowchef/style/tint2/tint2rc
 .PHONY: panel-remove
 
-picom-remove:
+compositor-remove:
 	rm -f  ~/.config/windowchef/style/picom/picom.conf
-.PHONY: picom-remove
+.PHONY: compositor-remove
 
+wallpaper-remove:
+	rm -f  ~/.config/windowchef/bin/windowchef-wallpaper-ctrl-shuf
+	rm -f  ~/.config/windowchef/bin/windowchef-wallpaper-ctrl-default
+.PHONY: wallpaper-remove
 
 
 test:
