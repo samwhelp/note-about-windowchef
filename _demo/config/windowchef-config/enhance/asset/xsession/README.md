@@ -32,8 +32,8 @@
 
 | Path |
 | --- |
-| [~/.config/windowchef/environment](../asset/config/environment) |
-| [~/.config/windowchef/autostart](../asset/config/autostart) |
+| [~/.config/windowchef/environment](../config/windowchef/nvironment) |
+| [~/.config/windowchef/autostart](../config/windowchef/autostart) |
 
 
 ## Howto
