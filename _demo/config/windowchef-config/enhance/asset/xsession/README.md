@@ -12,8 +12,8 @@
 
 | Path | Note |
 | --- | --- |
-| [/usr/share/xsessions/snapwm-session.desktop](xsessions/snapwm-session.desktop) | start here |
-| [/usr/share/snapwm/xsessions/snapwm-session](xsessions/snapwm-session) | snapwm-session.desktop call this script |
+| [/usr/share/xsessions/windowchef-session.desktop](xsessions/windowchef-session.desktop) | start here |
+| [/usr/share/windowchef/xsessions/windowchef-session](xsessions/windowchef-session) | windowchef-session.desktop call this script |
 
 
 ## Autostart
@@ -24,16 +24,16 @@
 
 | Path |
 | --- |
-| [/usr/share/snapwm/config/snapwm/environment](config/snapwm/environment) |
-| [/usr/share/snapwm/config/snapwm/autostart](config/snapwm/autostart) |
+| [/usr/share/windowchef/config/windowchef/environment](config/windowchef/environment) |
+| [/usr/share/windowchef/config/windowchef/autostart](config/windowchef/autostart) |
 
 
 ### Per User
 
 | Path |
 | --- |
-| [~/.config/snapwm/environment](../asset/config/environment) |
-| [~/.config/snapwm/autostart](../asset/config/autostart) |
+| [~/.config/windowchef/environment](../asset/config/environment) |
+| [~/.config/windowchef/autostart](../asset/config/autostart) |
 
 
 ## Howto
