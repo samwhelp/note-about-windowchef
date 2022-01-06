@@ -32,7 +32,7 @@
 
 | Path |
 | --- |
-| [~/.config/windowchef/environment](../config/windowchef/nvironment) |
+| [~/.config/windowchef/environment](../config/windowchef/environment) |
 | [~/.config/windowchef/autostart](../config/windowchef/autostart) |
 
 
