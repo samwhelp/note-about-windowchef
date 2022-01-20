@@ -117,10 +117,10 @@ alt + shift + f
 	pcmanfm-qt
 
 alt + shift + g
-	nautilus
+	thunar
 
 alt + shift + e
-	gedit
+	mousepad
 
 alt + shift + b
 	firefox
